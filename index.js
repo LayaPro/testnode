@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
+  console.log(`called method`);
   res.send("Hello, World! 🚀");
 });
 
